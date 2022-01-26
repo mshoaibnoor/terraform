@@ -5,12 +5,12 @@ terraform {
       version = "=2.46.0"
     }
   }
-    backend "azurerm" {
-        resource_group_name  = "cloud-shell-storage-eastus"
-        storage_account_name = "cs210032000485a12cc"
-        container_name       = "tfstate"
-        key                  = "terraform.tfstate"
-    }
+    # backend "azurerm" {
+    #     resource_group_name  = "cloud-shell-storage-eastus"
+    #     storage_account_name = "cs210032000485a12cc"
+    #     container_name       = "tfstate"
+    #     key                  = "terraform.tfstate"
+    # }
 
 }
 
